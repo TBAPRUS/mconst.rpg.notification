@@ -8,5 +8,11 @@ spring:
     driver-class-name: org.postgresql.Driver
   kafka:
     bootstrap-servers: localhost:9092
+custom:
+  keycloak:
+    uri: http://localhost:8080/realms/develop
+    client-id: login-app
+    username: notification_service
+    password: 1
 server:
-  port: 8084
+  port: 8083

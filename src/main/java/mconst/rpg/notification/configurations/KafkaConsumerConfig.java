@@ -1,4 +1,4 @@
-package mconst.rpg.notification;
+package mconst.rpg.notification.configurations;
 
 import mconst.rpg.notification.models.dtos.CreatedOrderEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

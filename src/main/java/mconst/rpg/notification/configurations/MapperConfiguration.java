@@ -1,4 +1,4 @@
-package mconst.rpg.notification;
+package mconst.rpg.notification.configurations;
 
 import mconst.rpg.notification.models.UserMapper;
 import org.mapstruct.factory.Mappers;

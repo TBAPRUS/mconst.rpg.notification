@@ -10,7 +10,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreatedOrderEvent implements Serializable {
-    private Long userId;
+    private String userId;
     private Long cost;
     private Long count;
 }
